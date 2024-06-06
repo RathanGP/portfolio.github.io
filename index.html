@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
 <body>
     
+    
     <header class="header">
-        <a href="#" class="logo">Porfolio</a>
+        <a href="#" class="logo">Portfolio</a>
 
         <i class="fa-solid fa-bars" id="menu-icon"></i>
+
         <nav class="navbar">
             <a href="#" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#education">Education</a>
-            <a href="#portfolio">Projects</a>
-            <a href="#Skills">Skills</a>
+            <a href="#portfolio">Projects</a>            
+            <a href="#skills">skills</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-   
+
     <section class="home" id="home">
         <div class="home-content">
-            <h3>Hi, My name is</h3>
+            <h3>Welcome! I'm</h3>
             <h1>Rathan Gowda GP</h1>
-            <h3>And I am a <span class="multiple-text"></span></h3>
+            <h3><span class="multiple-text">
+            </span></h3>
             <p>A collaborative team player with a strong aptitude for problem- solving.
                 Eager to apply my skills and contribute to an organization's success through innovative 
                 solutions and a passion for continuous learning and professional growth.</p>
@@ -37,147 +42,169 @@
                 <a href="https://www.naukri.com/mnjuser/homepage"><i class="fa-solid fa-n"></i></a>
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="file:///C:/Users/PURUSHOTHAM/Downloads/Rathangowdagp_CV24.pdf" class="btn">Download CV</a>
+            <a href="file:///C:/Users/PURUSHOTHAM/Downloads/Rathangowdagp_CV24.pdf"  class="btn">Download CV</a>
         </div>
 
         <div class="home-img">
-            <img src="Rathan.jpg" alt="">
+            <img src="rathanhome.jpg" alt="">
             
         </div>
     </section>
 
-    
+
+
     <section class="about" id="about">
         <div class="about-img">
             <img src="Rathan.jpg" alt="">
         </div>
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            
-            <p>Rathan Gowda GP a ambitious and dedicated engineering student specializing in <span> Artificial Intelligence and Machine Learning </span>(AIML)with a <span>CGPA </span>of <span>7.9</span>.
+            <h3></h3>
+            <p>
+                Rathan Gowda GP a ambitious and dedicated engineering student specializing in <span> Artificial Intelligence and Machine Learning </span>(AIML)with a <span>CGPA </span>of <span>7.7</span>.
                Currently pursuing a B.E. in AIML from Jyothy Institute of Technology, 
                complemented by certifications in Full Stack Development, Core Java, and Web Development,SQL 
-               from reputable institutions like IBM. </p>
-            <a href="#" class="btn">Read more</a>
+               from reputable institutions like IBM
+            </p>
+        
         </div>
     </section>
 
-    
+
     <section class="education" id="education">
         <h2 class="heading">My <span>Education</span></h2>
         <div class="education-container">
             <div class="education-box">
                 <i class="fa-solid fa-graduation-cap"></i>
-                <h3>BE</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                   Velit officia enim optio cum doloribus facilis vero! Possimus eius iste nam.</p>
-                <a href="#" class="btn">Read more</a>
+                <h3>B.E in AI and ML</h3>
+                <p>Key Coursework:Data Structure,Web Technology, Machine Learning,Algorthim.</p>
+                <p>CGPA : 7.7</p>
             </div>
 
             <div class="education-box">
                 <i class="fa-solid fa-building-columns"></i>
                 <h3>PUC</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                   Velit officia enim optio cum doloribus facilis vero! Possimus eius iste nam.</p>
-                <a href="#" class="btn">Read more</a>
+                <p>Key Coursework: Physics, Chemistry, Mathematics and Biology</p>
+                <p>Percentage : 78.88</p>
             </div>
 
             <div class="education-box">
                 <i class="fa-solid fa-school"></i>
                 <h3>Secondary School</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia enim optio cum doloribus facilis vero! Possimus eius iste nam.</p>
-                <a href="#" class="btn">Read more</a>
+                <p>Key Coursework: Science, Mathematics and Social Science</p>
+                <p>Percentage :77.1</p>
             </div>
         </div>
     </section>
+
 
 
     <section class="portfolio" id="portfolio">
         <h2 class="heading">Latest <span>Projects</span></h2>
+        <br><br>
 
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="project.jpeg" alt="">
+                <img src="retinal.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Heart Disease Prediction</h4>
-                    <p>Heart disease predicting  using retinal images is an emerging area of research 
-                        that combines medical imaging, machine learning,and cardiovascular health assessment. 
-                         </p>
-                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <h4>Heart attack prediction</h4>
+                    <p>CNNs to detect cardiovascular conditions from retinal images. Our model, trained on annotated datasets, achieved high accuracy in predicting cardiovascular risk.</p>
+                    <a href="https://github.com/RathanGP/videotutorial"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="dip.jpg" alt="">
+                <img src="weed.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Weed Detection system</h4>
-                    <p>A weed detection system using digital image  involves 
-                        utilizing computer algorithms to identify and  distinguish between weeds 
-                        and crops based on images captured in a field.</p>
-                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <h4>Weed Detection</h4>
+                    <p>Developed a system to automate weed detection in agricultural fields using high-resolution cameras and machine learning algorithms. By preprocessing images and training a model on labeled data.</p>
+                    <a href="https://github.com/RathanGP/Weed-Detection-System"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="android.jpg" alt="">
+                <img src="vision.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Music Player </h4>
-                    <p>Creating a music player using Android Studio involves designing a
-                       user-friendly interface and implementing functionality to handle audio playback.</p>
-                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <h4>Blind Assistance</h4>
+                    <p>This technical paper presents a real image detection system designed to assist blind individuals in navigating their environment. The system utilizes computer vision techniques to analyze images captured by a camera .</p>
+                    <a href="https://github.com/RathanGP/vision/tree/main/VISION-master"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
 
-      <br> <div class="portfolio-box">
-                <img src="sql.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4><br> Traffic-Management System</h4>
-                    <p>This system  involves  creating  a  system 
-                       to  record  and manage violations, issue fines, and  maintain records of offenders.</p>
-                    <i class="fa-solid fa-up-right-from-square"></i>
-                </div>
-            </div>
+           
         </div>
     </section>
 
-   
-    <section class="Skills" id="Skills">
+
+
+    <section class="skills" id="skills">
         <h2 class="heading">My <span>Skills</span></h2>
-        <br><br><br><br>
-        <div class="education-container">
-            <div class="education-box">
-                <i class="fa-brands fa-java"></i>
-                <h3>Java</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                   Velit officia enim optio cum doloribus facilis vero! Possimus eius iste nam.</p>
-                <a href="#" class="btn">Read more</a>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code'></i>
+                <br><br>
+                <h3>Programing Languages</h3>
+                <p>Java<br>JavaScript <br></p>
             </div>
 
-            <div class="education-box">
-                <i class="fa-solid fa-database"></i>
-                <h3>SQL</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                   Velit officia enim optio cum doloribus facilis vero! Possimus eius iste nam.</p>
-                <a href="#" class="btn">Read more</a>
+            <div class="skills-box">
+                <i class='bx bxs-data' ></i>
+                <br><br>
+                <h3>Database</h3>
+                <p>SQL<br>mongoDB<br></p>
             </div>
 
-            <div class="education-box">
-                <i class="fa-solid fa-network-wired"></i>
-                <h3>Web Technology</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia enim optio cum doloribus facilis vero! Possimus eius iste nam.</p>
-                <a href="#" class="btn">Read more</a>
+            <div class="skills-box">
+                <i class='bx bx-bot'></i>
+                <br><br>
+                <h3>Machine Learning </h3>
+                <p>Models<br>Algorthim<br></p>
             </div>
         </div>
     </section>
 
-    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="error-txt">
+                <div id="name">Full Name can't be blank</div>
+                <div id="email">Email Address can't be blank</div>
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+
+            <div class="error-txt">
+                <div id="subject">Subject can't be blank</div>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <div class="error-txt">
+                <div id="message">Message can't be blank</div>
+            </div>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2024 by @rathangp | All Rights Reserved.</p>
+            <p>Copyright &copy; 2024 by @rathan gowda gp | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </footer>
-    
+
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
